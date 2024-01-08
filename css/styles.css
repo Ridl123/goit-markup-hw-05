@@ -145,6 +145,7 @@ ul {
   padding: 188px;
 }
 .hero-title {
+  margin: 0 auto;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -339,7 +340,7 @@ ul {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 .footer-container-logo {
   margin-right: 120px;
