@@ -87,10 +87,26 @@ ul {
   letter-spacing: 0.02em;
   color: var(--logo-studio-header);
   padding: 24px 0;
+  position: relative;
+  color: #404bbf;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+.nav-link-active {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .nav-adress {
   display: flex;
